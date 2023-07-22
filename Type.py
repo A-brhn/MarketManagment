@@ -5,10 +5,11 @@ class Type:
         self.goodsList = goodslist
 
     def showdetails(self):
-        print(self.name + ":")
-        for i in range(0, len(self.goodsList)):
-            print(f"    {self.goodsList[i].name} :")
-            print(f"        price : {self.goodsList[i].price}")
-            print(f"        quantity : {self.goodsList[i].quantity}")
-            print(f"        productionDate :{self.goodsList[i].productionDate}")
-            print(f"        expirationDate : {self.goodsList[i].expirationDate}")
+        print(f"{self.name} :")
+        for good in self.goodsList:
+            print(f"    {good.name} :")
+            print(f"        price : {good.price}")
+            print(f"        quantity : {good.quantity}")
+            print(f"        productionDate :{good.productionDate}")
+            print(f"        expirationDate : {good.expirationDate}")
+        print("-----------------------")
