@@ -10,6 +10,6 @@ class Type:
             print(f"    {good.name} :")
             print(f"        price : {good.price}")
             print(f"        quantity : {good.quantity}")
-            print(f"        productionDate :{good.productionDate}")
+            print(f"        productionDate : {good.productionDate}")
             print(f"        expirationDate : {good.expirationDate}")
         print("-----------------------")
