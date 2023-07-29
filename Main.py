@@ -3,6 +3,7 @@ from datetime import date
 
 from Good import Good
 from Type import Type
+from Menu import *
 
 class Main:
 
@@ -39,7 +40,5 @@ class Main:
                 goodsList.append(Good(goodName,goodPrice,goodQuantity,goodPDate,goodEDate))
             types.append(Type(typeName,goodsList))
 
-    maketypes(bill,types)
-
-    for type in types:
-        type.showdetails()
+    maketypes(bill, types)
+    start(types)
