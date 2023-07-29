@@ -18,7 +18,8 @@ def start(types):
         sortByPrice(types)
         start(types)
     elif selected == 3:
-        pass
+        sortByEDAte(types)
+        start(types)
     elif selected == 4:
         pass
     elif selected == 5:

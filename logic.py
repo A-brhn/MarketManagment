@@ -31,3 +31,14 @@ def sortByPrice(types):
     for good in allGoodsList:
         good.showDetails()
     print("\n")
+
+def sortByEDAte(types):
+    allGoodsList = []
+    for type in types:
+        for good in type.goodsList:
+            allGoodsList.append(good)
+    allGoodsList.sort(key=lambda g: g.expirationDate, reverse=False)
+    for good in allGoodsList:
+        good.showDetails()
+    print("\n")
+
