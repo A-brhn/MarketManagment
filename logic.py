@@ -1,5 +1,4 @@
 def printSpecificType(types, selected):
-    name = ""
     if selected == 1:
         name = "junkFood"
     elif selected == 2:
@@ -22,5 +21,13 @@ def printSpecificType(types, selected):
         print("There is no such type in your bill !!!\n")
 
 
+def sortByPrice(types):
 
-
+    allGoodsList = []
+    for type in types:
+        for good in type.goodsList:
+            allGoodsList.append(good)
+    allGoodsList.sort(key=lambda g:g.price, reverse=False)
+    for good in allGoodsList:
+        good.showDetails()
+    print("\n")

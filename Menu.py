@@ -15,7 +15,8 @@ def start(types):
     if selected == 1:
         printTypeMenu(types)
     elif selected == 2:
-        pass
+        sortByPrice(types)
+        start(types)
     elif selected == 3:
         pass
     elif selected == 4:

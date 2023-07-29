@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e125ce2-7d6f-4c1f-b00a-ec042fae2ebc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Good.py" beforeDir="false" afterPath="$PROJECT_DIR$/Good.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logic.py" beforeDir="false" afterPath="$PROJECT_DIR$/logic.py" afterDir="false" />
@@ -91,7 +90,8 @@
       <workItem from="1690208535241" duration="818000" />
       <workItem from="1690303195601" duration="2629000" />
       <workItem from="1690349437569" duration="6507000" />
-      <workItem from="1690640684660" duration="2928000" />
+      <workItem from="1690640684660" duration="4561000" />
+      <workItem from="1690647818691" duration="1751000" />
     </task>
     <servers />
   </component>
@@ -99,6 +99,6 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MarketManagment$main.coverage" NAME="main Coverage Results" MODIFIED="1690643612231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MarketManagment$main.coverage" NAME="main Coverage Results" MODIFIED="1690649847977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
