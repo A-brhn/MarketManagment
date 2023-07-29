@@ -21,7 +21,8 @@ def start(types):
         sortByEDAte(types)
         start(types)
     elif selected == 4:
-        pass
+        sortByQuantity(types)
+        start(types)
     elif selected == 5:
         pass
     elif selected == 6:

@@ -42,3 +42,13 @@ def sortByEDAte(types):
         good.showDetails()
     print("\n")
 
+def sortByQuantity(types):
+    allGoodsList = []
+    for type in types:
+        for good in type.goodsList:
+            allGoodsList.append(good)
+    allGoodsList.sort(key=lambda g: g.quantity, reverse=False)
+    for good in allGoodsList:
+        good.showDetails()
+    print("\n")
+

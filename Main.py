@@ -32,7 +32,7 @@ class Main:
             for goodContent in goodsContent:
                 goodName = re.search(goodNameRegex,goodContent).group(1)
                 goodPrice = int(re.search(goodPriceRegex,goodContent).group(1))
-                goodQuantity = re.search(goodQuantityRegex,goodContent).group(1)
+                goodQuantity = int(re.search(goodQuantityRegex,goodContent).group(1))
                 fullDate = re.search(goodPDateRegex,goodContent)
                 goodPDate = date(int(fullDate.group(1)),int(fullDate.group(2)),int(fullDate.group(3)))
                 fullDate = re.search(goodEDateRegex,goodContent)
