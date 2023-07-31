@@ -51,4 +51,3 @@ def sortByQuantity(types):
     for good in allGoodsList:
         good.showDetails()
     print("\n")
-
