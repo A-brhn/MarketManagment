@@ -30,7 +30,8 @@ def start(types):
         calculateTotalPrice(types)
         start(types)
     elif selected == 7:
-        pass
+        showDetails(types)
+        start(types)
     elif selected == 8:
         pass
     else:

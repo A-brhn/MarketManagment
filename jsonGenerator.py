@@ -64,7 +64,7 @@ class JsonGenerator:
             return "error"
 
     def generate_random_p_date(self):
-        return "2023-" + str(self.rand.randint(1, 12)) + "-" + str(self.rand.randint(1, 30))
+        return "2023-" + str(self.rand.randint(1, 12)) + "-" + str(self.rand.randint(1, 28))
 
     def generate_random_e_date(self, p_date, type):
         split = p_date.split("-")

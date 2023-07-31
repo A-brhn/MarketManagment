@@ -61,8 +61,11 @@ def showRottenGoods(types):
             if good.expirationDate < date.today():
                 rottenGoodsList.append(good)
     print(f"today : {date.today().year}-{date.today().month}-{date.today().day}")
-    for good in rottenGoodsList:
-        good.showDetails()
+    if len(rottenGoodsList) == 0:
+        print("no rotten good in bill!! ")
+    else:
+        for good in rottenGoodsList:
+            good.showDetails()
     print("\n")
 
 def calculateTotalPrice(types):
@@ -72,3 +75,8 @@ def calculateTotalPrice(types):
             totalPrice += good.price
     print(f"the total price is : {totalPrice}")
     print("\n")
+
+def showDetails(types):
+    for type in types:
+        type.showdetails()
+
