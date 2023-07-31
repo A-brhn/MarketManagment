@@ -27,7 +27,8 @@ def start(types):
         showRottenGoods(types)
         start(types)
     elif selected == 6:
-        pass
+        calculateTotalPrice(types)
+        start(types)
     elif selected == 7:
         pass
     elif selected == 8:

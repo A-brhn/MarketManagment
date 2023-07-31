@@ -64,3 +64,11 @@ def showRottenGoods(types):
     for good in rottenGoodsList:
         good.showDetails()
     print("\n")
+
+def calculateTotalPrice(types):
+    totalPrice = 0
+    for type in types:
+        for good in type.goodsList:
+            totalPrice += good.price
+    print(f"the total price is : {totalPrice}")
+    print("\n")
