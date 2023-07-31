@@ -24,7 +24,8 @@ def start(types):
         sortByQuantity(types)
         start(types)
     elif selected == 5:
-        pass
+        showRottenGoods(types)
+        start(types)
     elif selected == 6:
         pass
     elif selected == 7:

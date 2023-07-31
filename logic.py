@@ -1,3 +1,5 @@
+from datetime import date
+
 def printSpecificType(types, selected):
     if selected == 1:
         name = "junkFood"
@@ -49,5 +51,16 @@ def sortByQuantity(types):
             allGoodsList.append(good)
     allGoodsList.sort(key=lambda g: g.quantity, reverse=False)
     for good in allGoodsList:
+        good.showDetails()
+    print("\n")
+
+def showRottenGoods(types):
+    rottenGoodsList = []
+    for type in types:
+        for good in type.goodsList:
+            if good.expirationDate < date.today():
+                rottenGoodsList.append(good)
+    print(f"today : {date.today().year}-{date.today().month}-{date.today().day}")
+    for good in rottenGoodsList:
         good.showDetails()
     print("\n")
